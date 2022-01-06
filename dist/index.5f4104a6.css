@@ -1,0 +1,93 @@
+*{box-sizing: border-box;margin:0;padding:0;}
+*::before,*::after{box-sizing: border-box;}
+body{
+    background:#ffe600;
+    min-height:100vh;
+}
+.skin{
+    position: relative;
+    
+}
+.nose{
+    border: 10px solid black;
+    border-color: black transparent transparent;
+    border-bottom: none;
+    height: 0px;
+    width: 0px;
+    position:relative;
+    left:50%;
+    top:145px;
+    margin-left: -10px;
+    /*要再看一下margin和相对定位*/
+}
+.yuan{
+   
+    width: 20px;
+    height: 8px;
+    position: absolute;
+    bottom: 10px;
+    left:-10px;
+    border-radius: 10px 10px 0 0;
+    background-color: black;
+
+   
+}
+
+.eye{
+    border:1px solid black;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    left:50%;
+    top:100px;
+    margin-left: -32px;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+}
+.eye::before{
+    content: "";
+    display: block;
+    border:3px solid black;     
+    width:25px;
+    height:25px;
+    position: relative;
+    top:2px;
+    left:11px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.eye.left{
+    transform:translateX(-100px);
+}
+.eye.right{
+    transform:translateX(100px);
+}
+
+.mouth{
+    border:1px solid blue;
+    width: 200px;
+    height:100px;
+    position: absolute;
+    left:50%;
+    top:170px;
+    margin-left: -100px;
+}
+
+.mouth.up{
+    
+
+}
+
+.mouth .up .lip .left{
+    border: 5px solid red;
+    height: 30px;
+    width:100px;
+
+}
+
+.mouth.up.lip.right{
+    
+}
+
+/*# sourceMappingURL=index.5f4104a6.css.map */
