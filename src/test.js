@@ -1,7 +1,7 @@
 import string from './css.js'
 
 let n =1
-time = 100
+let time = 100
 demo2.innerHTML=string.substring(0,n)
 demo.innerText=string.substring(0,n)
 //从第0个到第n个显示string的子字符串

@@ -1,10 +1,10 @@
-const string = `
-.skin *{box-sizing: border-box;margin:0;padding:0;}
-.skin *::before,.skin *::after{box-sizing: border-box;}
-
-.skin{
+*{box-sizing: border-box;margin:0;padding:0;}
+*::before,*::after{box-sizing: border-box;}
+body{
     background:#ffe600;
-    min-height:50vh;
+    min-height:100vh;
+}
+.skin{
     position: relative;
     
 }
@@ -197,5 +197,5 @@ const string = `
 .face.right{
     transform:translateX(160px);
 }
-`
-export default string;
+
+/*# sourceMappingURL=index.1d3488f0.css.map */
